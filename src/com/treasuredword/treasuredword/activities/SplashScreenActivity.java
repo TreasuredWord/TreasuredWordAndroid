@@ -1,10 +1,10 @@
-package com.hacktoolkit.helloworld.activities;
+package com.treasuredword.treasuredword.activities;
 
 import android.content.Intent;
 
 import com.hacktoolkit.android.activities.HTKSplashScreenActivity;
 import com.hacktoolkit.android.utils.HTKUtils;
-import com.hacktoolkit.helloworld.R;
+import com.treasuredword.treasuredword.R;
 
 public class SplashScreenActivity extends HTKSplashScreenActivity {
 
@@ -17,6 +17,6 @@ public class SplashScreenActivity extends HTKSplashScreenActivity {
 	}
 	
 	protected Intent getNextActivity() {
-		return HTKUtils.getActivityIntent("com.hacktoolkit.helloworld", "com.hacktoolkit.helloworld.activities.HelloWorldActivity");
+		return HTKUtils.getActivityIntent("com.treasuredword.treasuredword", "com.treasuredword.treasuredword.activities.HelloWorldActivity");
 	}
 }

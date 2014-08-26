@@ -1,12 +1,12 @@
-package com.hacktoolkit.helloworld.activities;
+package com.treasuredword.treasuredword.activities;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.hacktoolkit.helloworld.R;
-import com.hacktoolkit.helloworld.helpers.AppHelpers;
+import com.treasuredword.treasuredword.R;
+import com.treasuredword.treasuredword.helpers.AppHelpers;
 
 public class HelloWorldActivity extends Activity {
 

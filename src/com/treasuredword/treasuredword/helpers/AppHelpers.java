@@ -1,4 +1,4 @@
-package com.hacktoolkit.helloworld.helpers;
+package com.treasuredword.treasuredword.helpers;
 
 import android.app.Activity;
 import android.view.Menu;
@@ -6,8 +6,8 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.hacktoolkit.android.utils.HTKUtils;
-import com.hacktoolkit.helloworld.R;
-import com.hacktoolkit.helloworld.constants.AppConstants;
+import com.treasuredword.treasuredword.R;
+import com.treasuredword.treasuredword.constants.AppConstants;
 
 public class AppHelpers {
 	public static void inflatePrimaryMenu(Activity currentActivity, Menu menu) {
@@ -20,11 +20,11 @@ public class AppHelpers {
 //		  case android.R.id.home:
 //			  break;
 		  case R.id.menu_settings:
-			  HTKUtils.switchActivity(currentActivity, "com.hacktoolkit.helloworld", "com.hacktoolkit.helloworld.activities.SettingsActivity");
+			  HTKUtils.switchActivity(currentActivity, "com.treasuredword.treasuredword", "com.treasuredword.treasuredword.activities.SettingsActivity");
 			  //Toast.makeText(this, "Menu Settings", Toast.LENGTH_SHORT).show();
 			  break;
 		  case R.id.menu_splash:
-			  HTKUtils.switchActivity(currentActivity, "com.hacktoolkit.helloworld", "com.hacktoolkit.helloworld.activities.SplashScreenActivity");
+			  HTKUtils.switchActivity(currentActivity, "com.treasuredword.treasuredword", "com.treasuredword.treasuredword.activities.SplashScreenActivity");
 			  break;
 		  case R.id.menu_about:
 			  HTKUtils.launchUrlInBrowser(currentActivity, AppConstants.HACKTOOLKIT_URL);
@@ -37,7 +37,7 @@ public class AppHelpers {
 			  break;
 		  case R.id.menu_invite_sms:
 			  Toast.makeText(currentActivity, "Invite Friends via SMS", Toast.LENGTH_SHORT).show();
-			  HTKUtils.switchActivity(currentActivity, "com.hacktoolkit.helloworld", "com.hacktoolkit.helloworld.activities.InviteFriendsSMSActivity");
+			  HTKUtils.switchActivity(currentActivity, "com.treasuredword.treasuredword", "com.treasuredword.treasuredword.activities.InviteFriendsSMSActivity");
 			  break;
 		  default:
 			  break;

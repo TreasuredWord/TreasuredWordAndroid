@@ -1,4 +1,4 @@
-package com.hacktoolkit.helloworld.constants;
+package com.treasuredword.treasuredword.constants;
 
 public class AppConstants {
 	public static final String HACKTOOLKIT_URL = "http://hacktoolkit.com";

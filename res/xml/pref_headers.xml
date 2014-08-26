@@ -4,25 +4,25 @@
     <!-- These settings headers are only used on tablets. -->
 
     <header
-        android:fragment="com.hacktoolkit.helloworld.SettingsActivity$GeneralPreferenceFragment"
+        android:fragment="com.treasuredword.treasuredword.SettingsActivity$GeneralPreferenceFragment"
         android:title="@string/pref_header_general" />
     <header
-        android:fragment="com.hacktoolkit.helloworld.SettingsActivity$NotificationPreferenceFragment"
+        android:fragment="com.treasuredword.treasuredword.SettingsActivity$NotificationPreferenceFragment"
         android:title="@string/pref_header_notifications" />
     <header
-        android:fragment="com.hacktoolkit.helloworld.SettingsActivity$DataSyncPreferenceFragment"
+        android:fragment="com.treasuredword.treasuredword.SettingsActivity$DataSyncPreferenceFragment"
         android:title="@string/pref_header_data_sync" />
 
     <!-- These settings headers are only used on tablets. -->
 
     <header
-        android:fragment="com.hacktoolkit.helloworld.SettingsActivity$GeneralPreferenceFragment"
+        android:fragment="com.treasuredword.treasuredword.SettingsActivity$GeneralPreferenceFragment"
         android:title="@string/pref_header_general" />
     <header
-        android:fragment="com.hacktoolkit.helloworld.SettingsActivity$NotificationPreferenceFragment"
+        android:fragment="com.treasuredword.treasuredword.SettingsActivity$NotificationPreferenceFragment"
         android:title="@string/pref_header_notifications" />
     <header
-        android:fragment="com.hacktoolkit.helloworld.SettingsActivity$DataSyncPreferenceFragment"
+        android:fragment="com.treasuredword.treasuredword.SettingsActivity$DataSyncPreferenceFragment"
         android:title="@string/pref_header_data_sync" />
 
 </preference-headers>

@@ -1,4 +1,4 @@
-package com.hacktoolkit.helloworld.activities;
+package com.treasuredword.treasuredword.activities;
 
 import java.util.ArrayList;
 
@@ -21,10 +21,10 @@ import com.hacktoolkit.android.fragments.ContactsFragment;
 import com.hacktoolkit.android.models.HTKContact;
 import com.hacktoolkit.android.utils.ContactsUtils;
 import com.hacktoolkit.android.utils.HTKUtils;
-import com.hacktoolkit.helloworld.R;
-import com.hacktoolkit.helloworld.adapters.ContactsAdapter;
-import com.hacktoolkit.helloworld.constants.AppConstants;
-import com.hacktoolkit.helloworld.helpers.AppHelpers;
+import com.treasuredword.treasuredword.R;
+import com.treasuredword.treasuredword.adapters.ContactsAdapter;
+import com.treasuredword.treasuredword.constants.AppConstants;
+import com.treasuredword.treasuredword.helpers.AppHelpers;
 
 public class InviteFriendsSMSActivity extends FragmentActivity {
 	ContactsAdapter adapter;

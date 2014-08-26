@@ -1,4 +1,6 @@
-package com.hacktoolkit.helloworld.activities;
+package com.treasuredword.treasuredword.activities;
+
+import java.util.List;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -17,11 +19,9 @@ import android.preference.PreferenceManager;
 import android.preference.RingtonePreference;
 import android.text.TextUtils;
 
-import java.util.List;
+import com.treasuredword.treasuredword.R;
 
-import com.hacktoolkit.helloworld.R;
-import com.hacktoolkit.helloworld.R.string;
-import com.hacktoolkit.helloworld.R.xml;
+
 
 /**
  * A {@link PreferenceActivity} that presents a set of application settings. On

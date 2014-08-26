@@ -1,4 +1,4 @@
-package com.hacktoolkit.helloworld.adapters;
+package com.treasuredword.treasuredword.adapters;
 
 import java.util.ArrayList;
 
@@ -15,7 +15,7 @@ import android.widget.TextView;
 
 import com.hacktoolkit.android.adapters.HTKContactsAdapter;
 import com.hacktoolkit.android.models.HTKContact;
-import com.hacktoolkit.helloworld.R;
+import com.treasuredword.treasuredword.R;
 
 public class ContactsAdapter extends HTKContactsAdapter {
 	ViewHolder viewHolder;

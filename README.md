@@ -1,7 +1,9 @@
-htk-android-HelloWorld
+Treasured Word Android
 ======================
 
-HelloWorld is a Hacktoolkit-flavored simple Android app that can be used as a skeleton for other Android projects.
+*"I have treasured Your word in my heart."* - Psalm 119:11
+
+Treasured Word Android is an app to help you memorize the Bible.
 
 Requires [Hacktoolkit for Android](https://github.com/hacktoolkit/hacktoolkit-android_lib)
 
